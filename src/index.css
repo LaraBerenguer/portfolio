@@ -8,11 +8,16 @@
   background-color: #242424;
 }
 
+/*tailwind layers*/
+@import "tailwindcss";
+
+/*override styles*/
 a {
   font-weight: 500;
   color: #DAF;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #FA5;
 }
@@ -36,21 +41,16 @@ button {
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
-  font-family: inherit;  
+  font-family: inherit;
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 button:hover {
   border-color: #DAF;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto #DAF;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }  
 }
