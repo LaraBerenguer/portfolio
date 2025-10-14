@@ -4,6 +4,7 @@ import Footer from './layout/Footer';
 import Navbar from './layout/Navbar';
 import MainButton from './components/ui/Button';
 import Tab from './components/ui/Tab';
+import Badge from './components/ui/Badge';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
         </section>
         <section className="card" id='skills'>
           Skills
+          {["typescript", "react", "Nodejs"].map(
+            skill => <Badge skill={skill}/>
+          )}
         </section>
         <MainButton>Hello</MainButton>
       </main>
