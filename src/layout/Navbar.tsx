@@ -26,7 +26,7 @@ const Navbar = () => {
                             offset={-80}
                             spy={true}
                             activeClass="underline"
-                            className="cursor-pointer text-light hover:text-primary transition-colors"
+                            className="cursor-pointer text-light hover:text-gold transition-colors"
                         >
                             {section.charAt(0).toUpperCase() + section.slice(1)}
                         </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
             <div className="flex gap-4 text-light">
                 <a href="mailto:laraberenguer@outlook.com" className="hover:text-primary">mail</a>
-                <a href="https://linkedin.com/in/lara-berenguer" target="_blank" className="hover:text-primary">in</a>
+                <a href="https://www.linkedin.com/in/lara-berenguer-calvo/" target="_blank" className="hover:text-primary">in</a>
                 <a href="https://github.com/LaraBerenguer" target="_blank" className="hover:text-primary">git</a>
             </div>
         </nav>

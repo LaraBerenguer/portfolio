@@ -1,4 +1,5 @@
 import './App.css'
+import Footer from './layout/Footer';
 import Navbar from './layout/Navbar';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           Hellooo
         </button>
       </main>
+      <Footer />
     </>
   )
 };
