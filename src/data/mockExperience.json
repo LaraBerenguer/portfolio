@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "label": "Bootcamp",
+        "count": 2
+    },
+    {
+        "id": 2,
+        "label": "Hackaton",
+        "count": 1
+    },
+    {
+        "id": 3,
+        "label": "Projects",
+        "count": 1
+    }
+]
