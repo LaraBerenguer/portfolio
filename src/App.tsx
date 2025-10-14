@@ -1,6 +1,7 @@
 import './App.css'
 import Footer from './layout/Footer';
 import Navbar from './layout/Navbar';
+import MainButton from './components/ui/Button';
 
 function App() {
   return (
@@ -19,9 +20,7 @@ function App() {
         <section className="card" id='skills'>
           Skills
         </section>
-        <button className='px-4 py-2 border-1 rounded-lg border-primary hover:text-primary hover:border-primary-dark focus:border-gold transition-all'>
-          Hellooo
-        </button>
+        <MainButton>Hello</MainButton>
       </main>
       <Footer />
     </>
