@@ -18,7 +18,7 @@ function App() {
         </section>
         <section className="grid" id='projects'>
           Projects
-          {data.map(
+          {data.projects.filter(project => project.category === "projects").map(
             data => <ProjectCard key={data.id} data={data} />
           )}
         </section>

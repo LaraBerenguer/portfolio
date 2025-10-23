@@ -22,8 +22,8 @@ const ProjectCard: React.FC<CardProps> = ({
 
     return (
         <section className='flex gap-x-8'>
-            <div id='card-left w-full max-w-sm'>
-                <img src={img}></img>
+            <div id='card-left max-w-sm rounded-lg overflow-hidden'>
+                <img src={img} className='rounded-lg w-100 '></img>
             </div>
             <div id='card-right' className='flex flex-col w-full items-start gap-3'>
                 <h3>{title}</h3>
@@ -32,12 +32,12 @@ const ProjectCard: React.FC<CardProps> = ({
                         <Badge key={tech} skill={tech} />
                     )}
                 </span>
-                <section className='text-start'>
+                <section className='text-start text-sm'>
                     {description}
                 </section>
                 <section className='card-buttons flex gap-4'>
-                    <MainButton variant='secondary' children={'Visit the site'} />
-                    <MainButton variant='outline' children={'Repository'} />
+                    <MainButton variant='primary' children={'Visit the site'} />
+                    <MainButton variant='secondary' children={'Repository'} />
                 </section>
             </div>
         </section>
