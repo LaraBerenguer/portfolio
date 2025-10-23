@@ -1,10 +1,12 @@
 import './App.css'
-import experience from "../src/data/mockExperience.json"
+import experience from "../src/data/mockProjects.json"
+import data from "../src/data/data.json"
 import Footer from './layout/Footer';
 import Navbar from './layout/Navbar';
 import MainButton from './components/ui/Button';
 import Tab from './components/ui/Tab';
 import Badge from './components/ui/Badge';
+import ProjectCard from './components/ui/ProjectCard';
 
 function App() {
   return (
@@ -14,20 +16,23 @@ function App() {
         <section className="card" id='home'>
           Home
         </section>
-        <section className="card" id='projects'>
+        <section className="grid" id='projects'>
           Projects
+          {data.map(
+            data => <ProjectCard key={data.id} data={data} />
+          )}
         </section>
         <section className="card" id='experience'>
           Experience
           {experience.map(
-            tab => <Tab tab={tab} activeTab={true} />
+            tab => <Tab key={tab.id} tab={tab} activeTab={true} />
           )}
 
         </section>
         <section className="card" id='skills'>
           Skills
           {["typescript", "react", "Nodejs"].map(
-            skill => <Badge skill={skill}/>
+            skill => <Badge key={skill} skill={skill} />
           )}
         </section>
         <MainButton>Hello</MainButton>

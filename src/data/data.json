@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "Character Creator",
+        "description": "A super cool tool to create characters for tabletop games and even books. Made with magic. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "techs": [
+            "React",
+            "TypeScript",
+            "TailwindCSS",
+            "NodeJS",
+            "Express",
+            "Sequelize",
+            "PostgreSQL"
+        ],
+        "links": {
+            "demo": "https://character-creator-rho.vercel.app/",
+            "repo": "https://github.com/LaraBerenguer/character-creator"
+        },
+        "img": "https://i.imgur.com/cQByZit.jpeg"
+    },
+    {
+        "id": 2,
+        "title": "Find Games",
+        "description": "Find Games is a platform for scheduling and managing tabletop gaming sessions. You can create users, events, manage locations, and coordinate with other players.",
+        "techs": [
+            "React",
+            "TypeScript",
+            "DaisyUI",
+            "NodeJS",
+            "Express",
+            "Sequelize",
+            "MySQL"
+        ],
+        "links": {
+            "demo": "https://findgames-three.vercel.app/",
+            "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
+        },
+        "img": "https://i.imgur.com/cC19cYe.jpeg"
+    }
+]
