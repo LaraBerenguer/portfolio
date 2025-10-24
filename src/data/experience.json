@@ -1,0 +1,53 @@
+{
+    "experiences": [
+        {
+            "id": 1,            
+            "title": "Frontend Developer",
+            "company": "IT Academy - Barcelona Activa",
+            "description": "I participated in a React and Typescript project at Barcelona Activa, developing a free student wiki for an internal project.",
+            "from": "April 2025",
+            "to": "May 2025",
+            "techStack": [
+                "React",
+                "TypeScript",
+                "TailwindCSS",
+                "RESTful APIs",
+                "Vitest"
+            ],
+            "skills": [
+                "Business Logic",
+                "Scrum",
+                "API RESTful",
+                "Git flow"                
+            ],
+            "links": {
+                "demo": "https://ita-wiki-frontend-production.up.railway.app/",
+                "repo": "https://github.com/IT-Academy-BCN/ita-wiki-frontend"
+            }
+        },
+        {
+            "id": 2,            
+            "title": "Design System Frontend Developer",
+            "company": "Shehub",
+            "description": "I'm a developer at SheHub, a platform that connects woman in tech to real-world projects, collaborating in cross-functional teams. I'm part of the design system team, building a reliable product one component at a time, reusable and in line with SheHub's branding.",
+            "from": "October 2025",
+            "to": "Present",
+            "techStack": [
+                "React",
+                "NextJS",
+                "TailwindCSS",
+                "Figma"
+            ],
+            "skills": [
+                "System Design patterns",
+                "Scrum",
+                "Teamwork",
+                "Git flow"                
+            ],
+            "links": {
+                "demo": "https://www.shehub.es/",
+                "repo": ""
+            }
+        }
+    ]
+}
