@@ -21,14 +21,14 @@ const ProjectCard: React.FC<CardProps> = ({
             <div id='card-left max-w-sm rounded-lg overflow-hidden'>
                 <img src={img} className='rounded-lg w-5xl'></img>
             </div>
-            <div id='card-right' className='flex flex-col w-full items-start gap-3'>
+            <div id='card-right' className='flex flex-col w-full items-start gap-6'>
                 <h3>{title}</h3>
                 <span className='flex flex-wrap'>
                     {techs.map(tech =>
                         <Badge key={tech} skill={tech} />
                     )}
                 </span>
-                <section className='text-start text-sm'>
+                <section className='text-start text-sm font-inter'>
                     {description}
                 </section>
                 <section className='card-buttons flex gap-4'>

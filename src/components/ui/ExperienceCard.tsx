@@ -19,12 +19,12 @@ const ExperienceCard = ({ data }: ExperienceCardProps) => {
                 </div>
             </div>
 
-            <p className="text-light text-sm leading-relaxed mb-4 text-left">
+            <p className="text-light font-inter text-sm leading-relaxed mb-4 text-left">
                 {data.description}
             </p>
 
             <div className="mb-4">
-                <h5 className="text-sm font-medium text-light mb-2">Tech Stack</h5>
+                <h5 className="text-sm text-start font-medium text-light mb-2">Tech Stack</h5>
                 <div className="flex flex-wrap gap-2">
                     {data.techStack.map(tech => (
                         <Badge key={tech} skill={tech} />
@@ -33,7 +33,7 @@ const ExperienceCard = ({ data }: ExperienceCardProps) => {
             </div>
 
             <div className="mb-6">
-                <h5 className="text-sm font-medium text-light mb-2">Skills</h5>
+                <h5 className="text-sm text-start font-medium text-light mb-2">Skills</h5>
                 <div className="flex flex-wrap gap-2">
                     {data.skills.map(skill => (
                         <span
