@@ -36,15 +36,15 @@ const Tab: React.FC<TabProps> = ({
                 }
             `}
         >
-            <span className="relative z-10">
+            <span className="relative z-10 capitalize">
                 {tab.category}
                 {count !== undefined && (
                     <span className={`
                         ml-2 px-2 py-1 rounded-full text-xs 
                         transition-all duration-300 ease-out
                         ${activeTab
-                            ? 'bg-white/20 text-white hover:bg-white/30'
-                            : 'bg-light/10 text-light-muted hover:bg-light/20 hover:text-light'
+                            ? 'bg-white/20 text-white'
+                            : 'bg-light/10 text-light-muted'
                         }
                     `}>
                         {count}
