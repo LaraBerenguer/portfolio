@@ -1,0 +1,43 @@
+{
+    "skills": {
+        "frontend": [
+            "React",
+            "Typescript",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "TailwindCSS"
+        ],
+        "fullstack": [
+            "Node.js",
+            "Next.js",
+            "RESTful APIs",
+            "Docker",
+            "Sequelize",
+            "Prisma",
+            "bcrypt",
+            "JWT"
+        ],
+        "ux": [
+            "TailwindCSS",
+            "DaisyUI",
+            "User experience",
+            "Figma"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Vercel",
+            "Render",
+            "Vitest",
+            "Zod",
+            "Firebase"
+        ],
+        "softskills": [
+            "Teamwork",
+            "Effective communication",
+            "Emotional intelligence",
+            "Stress management"
+        ]
+    }
+}
