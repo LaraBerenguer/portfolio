@@ -16,7 +16,7 @@ const Navbar = () => {
                 <span>Lara Berenguer</span>
             </div>
             <div className="flex gap-6">
-                {["home", "projects", "experience", "skills"].map(
+                {["home", "experience", "projects", "skills"].map(
                     (section, index) => (
                         <Link
                             key={index}
