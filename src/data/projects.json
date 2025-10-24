@@ -21,7 +21,7 @@
                         "demo": "https://character-creator-rho.vercel.app/",
                         "repo": "https://github.com/LaraBerenguer/character-creator"
                     },
-                    "img": "/character_creator_mock.png"
+                    "img": "charactercreator"
                 },
                 {
                     "id": 2,
@@ -39,7 +39,7 @@
                         "demo": "https://findgames-three.vercel.app/",
                         "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
                     },
-                    "img": "/character_creator_mock.png"
+                    "img": "quote"
                 }
             ]
         },
@@ -61,7 +61,7 @@
                         "demo": "https://character-creator-rho.vercel.app/",
                         "repo": "https://github.com/LaraBerenguer/character-creator"
                     },
-                    "img": "/character_creator_mock.png"
+                    "img": "charactercreator"
                 }
             ]
         },
@@ -86,7 +86,7 @@
                         "demo": "https://findgames-three.vercel.app/",
                         "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
                     },
-                    "img": "/character_creator_mock.png"
+                    "img": "charactercreator"
                 },
                 {
                     "id": 5,
@@ -102,7 +102,7 @@
                         "demo": "https://findgames-three.vercel.app/",
                         "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
                     },
-                    "img": "/character_creator_mock.png"
+                    "img": "charactercreator"
                 }
             ]
         }
