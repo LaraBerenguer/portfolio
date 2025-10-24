@@ -19,7 +19,7 @@ const ProjectCard: React.FC<CardProps> = ({
     return (
         <section className='flex gap-x-8'>
             <div id='card-left max-w-sm rounded-lg overflow-hidden'>
-                <img src={img} className='rounded-lg w-100 '></img>
+                <img src={img} className='rounded-lg w-5xl'></img>
             </div>
             <div id='card-right' className='flex flex-col w-full items-start gap-3'>
                 <h3>{title}</h3>
