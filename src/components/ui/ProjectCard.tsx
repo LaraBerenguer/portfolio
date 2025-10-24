@@ -1,14 +1,10 @@
 import React from 'react';
 import Badge from './Badge';
 import MainButton from './Button';
+import type { Project } from '../../types/types';
 
 interface CardProps {
-    data: {
-        img: string;
-        title: string;
-        description: string;
-        techs: string[];
-    }
+    data: Project;
 };
 
 const ProjectCard: React.FC<CardProps> = ({
@@ -16,8 +12,8 @@ const ProjectCard: React.FC<CardProps> = ({
         img,
         title,
         description,
-        techs }
-
+        techs,
+        links }
 }) => {
 
     return (
@@ -36,8 +32,12 @@ const ProjectCard: React.FC<CardProps> = ({
                     {description}
                 </section>
                 <section className='card-buttons flex gap-4'>
-                    <MainButton variant='primary' children={'Visit the site'} />
-                    <MainButton variant='secondary' children={'Repository'} />
+                    <a href={links.demo} target="_blank" rel="noopener noreferrer">
+                        <MainButton variant='primary' children={'Visit the site'} />
+                    </a>
+                    <a href={links.repo} target="_blank" rel="noopener noreferrer">
+                        <MainButton variant='secondary' children={'Repository'} />
+                    </a>
                 </section>
             </div>
         </section>

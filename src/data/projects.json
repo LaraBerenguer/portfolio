@@ -1,0 +1,110 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "category": "projects",
+            "projects": [
+                {
+                    "id": 1,
+                    "title": "Character Creator",
+                    "description": "A fun tool to create the personality of your next tabletop character. You can choose or randomize four aspects of your personality: trait, bond, flaw and ideal. Also, if you need more inspiration, you can generate a small background to give life to your character.",
+                    "techs": [
+                        "React",
+                        "TypeScript",
+                        "TailwindCSS",
+                        "NodeJS",
+                        "Express",
+                        "Sequelize",
+                        "PostgreSQL"
+                    ],
+                    "links": {
+                        "demo": "https://character-creator-rho.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/character-creator"
+                    },
+                    "img": "/character_creator_mock.png"
+                },
+                {
+                    "id": 2,
+                    "title": "Notes App",
+                    "description": "Notes App is a platform for scheduling and managing tabletop gaming sessions. You can create users, events, manage locations, and coordinate with other players.",
+                    "techs": [
+                        "React",
+                        "TypeScript",
+                        "NextJS",
+                        "Redux",
+                        "PostgreSQL",
+                        "Prisma"
+                    ],
+                    "links": {
+                        "demo": "https://findgames-three.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
+                    },
+                    "img": "/character_creator_mock.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "category": "hackaton",
+            "projects": [
+                {
+                    "id": 3,
+                    "title": "BarriSense",
+                    "description": "BarriSense is a participatory website where citizens can submit complaints about their neighborhood and see them represented in a heat map that shows the level of social unrest in Barcelona.",
+                    "techs": [
+                        "React",
+                        "TypeScript",
+                        "TailwindCSS",
+                        "Mapbox"
+                    ],
+                    "links": {
+                        "demo": "https://character-creator-rho.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/character-creator"
+                    },
+                    "img": "/character_creator_mock.png"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "category": "bootcamp",
+            "projects": [
+                {
+                    "id": 4,
+                    "title": "Find Games",
+                    "description": "Find Games is a platform for scheduling and managing tabletop gaming sessions. You can create users, events, manage locations, and coordinate with other players.",
+                    "techs": [
+                        "React",
+                        "TypeScript",
+                        "DaisyUI",
+                        "NodeJS",
+                        "Express",
+                        "Sequelize",
+                        "MySQL"
+                    ],
+                    "links": {
+                        "demo": "https://findgames-three.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
+                    },
+                    "img": "/character_creator_mock.png"
+                },
+                {
+                    "id": 5,
+                    "title": "Quote Tracker",
+                    "description": "This is my quote estimation tool, built with React and Vite, and featuring a services selection, real-time price calculation, and client information management. The app includes URL parameters for sharing the quotes and different pages, built with React Router. It also has filters and a clean, responsive design. Hope you like it.",
+                    "techs": [
+                        "React",
+                        "TypeScript",
+                        "Vite",
+                        "React Router"
+                    ],
+                    "links": {
+                        "demo": "https://findgames-three.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
+                    },
+                    "img": "/character_creator_mock.png"
+                }
+            ]
+        }
+    ]
+}
