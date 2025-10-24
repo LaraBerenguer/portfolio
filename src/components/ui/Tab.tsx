@@ -1,13 +1,8 @@
 import React from 'react';
-
-interface TabItem {
-    id: number;
-    label: string;
-    count?: number;
-}
+import type { Category } from '../../types/types';
 
 interface TabProps {
-    tab: TabItem;
+    tab: Category;
     activeTab: boolean;
     onClick?: () => void;
 }
@@ -17,6 +12,7 @@ const Tab: React.FC<TabProps> = ({
     activeTab,
     onClick
 }) => {
+    const count = tab.projects.length;
     return (
         <button
             key={tab.id}
@@ -41,8 +37,8 @@ const Tab: React.FC<TabProps> = ({
             `}
         >
             <span className="relative z-10">
-                {tab.label}
-                {tab.count !== undefined && (
+                {tab.category}
+                {count !== undefined && (
                     <span className={`
                         ml-2 px-2 py-1 rounded-full text-xs 
                         transition-all duration-300 ease-out
@@ -51,7 +47,7 @@ const Tab: React.FC<TabProps> = ({
                             : 'bg-light/10 text-light-muted hover:bg-light/20 hover:text-light'
                         }
                     `}>
-                        {tab.count}
+                        {count}
                     </span>
                 )}
             </span>
