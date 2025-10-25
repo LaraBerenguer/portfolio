@@ -4,7 +4,7 @@
             "id": 1,            
             "title": "Frontend Developer",
             "company": "IT Academy - Barcelona Activa",
-            "description": "I participated in a React and Typescript project at Barcelona Activa, developing a free student wiki for an internal project.",
+            "description": "This was my first exeprience with a whole team of front and back colleagues. I participated in a React and Typescript project at Barcelona Activa, developing a free student wiki for an internal project. I sharpened my skills in Scrum methodology, git flow and RESTful APIs.",
             "from": "April 2025",
             "to": "May 2025",
             "techStack": [
@@ -29,7 +29,7 @@
             "id": 2,            
             "title": "Design System Frontend Developer",
             "company": "Shehub",
-            "description": "I'm a developer at SheHub, a platform that connects woman in tech to real-world projects, collaborating in cross-functional teams. I'm part of the design system team, building a reliable product one component at a time, reusable and in line with SheHub's branding.",
+            "description": "I'm a developer at SheHub, a platform that connects woman in tech to real-world projects, collaborating in cross-functional teams. I'm part of the Design System team, building a reliable product one component at a time, reusable and in line with SheHub's branding.",
             "from": "October 2025",
             "to": "Present",
             "techStack": [
@@ -39,10 +39,11 @@
                 "Figma"
             ],
             "skills": [
-                "System Design patterns",
+                "Design System patterns",
                 "Scrum",
                 "Teamwork",
-                "Git flow"                
+                "Git flow",                
+                "Empowerment"                
             ],
             "links": {
                 "demo": "https://www.shehub.es/",

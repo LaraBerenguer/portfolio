@@ -12,6 +12,7 @@
                         "React",
                         "TypeScript",
                         "TailwindCSS",
+                        "Vite",
                         "NodeJS",
                         "Express",
                         "Sequelize",
@@ -40,6 +41,39 @@
                         "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
                     },
                     "img": "quote"
+                },
+                {
+                    "id": 3,
+                    "title": "Mini paint",
+                    "description": "This is a fun little project made with Typescript vanilla, styled with CSS. It contains a canvas where you can... well, paint! You can also save your drawing if you like it.",
+                    "techs": [
+                        "TypeScript",
+                        "CSS",
+                        "canva"
+                    ],
+                    "links": {
+                        "demo": "https://mini-paint-theta.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/mini-paint"
+                    },
+                    "img": "minipaint"
+                },
+                {
+                    "id": 3,
+                    "title": "Pokédex",
+                    "description": "The classic Pokédex! I code it to apply for my first hackaton. You can search, filter, fav and navigate the first 50 pokémon. It also has a very comprehensive set of tests. Data is fetch from the Pokéapi.",
+                    "techs": [
+                        "React",
+                        "TypeScript",
+                        "Vite",
+                        "TailwindCSS",
+                        "Jest",
+                        "React Testing Library"
+                    ],
+                    "links": {
+                        "demo": "https://mini-paint-theta.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/mini-paint"
+                    },
+                    "img": "quote"
                 }
             ]
         },
@@ -50,16 +84,17 @@
                 {
                     "id": 3,
                     "title": "BarriSense",
-                    "description": "BarriSense is a participatory website where citizens can submit complaints about their neighborhood and see them represented in a heat map that shows the level of social unrest in Barcelona.",
+                    "description": "This was my first project for a Hackaton. It was a great learning experience and I had a great multidisciplinary and invested team. Together we created BarriSense, a participatory website where citizens can submit complaints about their neighborhood and see them represented in a heat map that shows the level of social unrest in Barcelona. Backend is made with Java + Sprintboot",
                     "techs": [
                         "React",
-                        "TypeScript",
+                        "Vite",
                         "TailwindCSS",
-                        "Mapbox"
+                        "MapboxGL",
+                        "Axios"
                     ],
                     "links": {
-                        "demo": "https://character-creator-rho.vercel.app/",
-                        "repo": "https://github.com/LaraBerenguer/character-creator"
+                        "demo": "",
+                        "repo": "https://github.com/OhMyLaia/barriSense-frontend"
                     },
                     "img": "charactercreator"
                 }
@@ -86,7 +121,7 @@
                         "demo": "https://findgames-three.vercel.app/",
                         "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
                     },
-                    "img": "charactercreator"
+                    "img": "findgames"
                 },
                 {
                     "id": 5,
@@ -96,13 +131,15 @@
                         "React",
                         "TypeScript",
                         "Vite",
-                        "React Router"
+                        "React Router",
+                        "TailwindCSS",
+                        "Vite"
                     ],
                     "links": {
-                        "demo": "https://findgames-three.vercel.app/",
-                        "repo": "https://github.com/LaraBerenguer/nodejs-express-mysql"
+                        "demo": "https://react-budget-cards.vercel.app/",
+                        "repo": "https://github.com/LaraBerenguer/react-budget-cards"
                     },
-                    "img": "charactercreator"
+                    "img": "quote"
                 }
             ]
         }
