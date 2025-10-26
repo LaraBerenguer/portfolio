@@ -8,6 +8,7 @@ interface ButtonProps {
     disabled?: boolean;
     className?: string;
     type?: 'button' | 'submit' | 'reset';
+    title?: string;
 };
 
 const MainButton: React.FC<ButtonProps> = ({
@@ -17,14 +18,15 @@ const MainButton: React.FC<ButtonProps> = ({
     size = 'md',
     disabled = false,
     className = '',
-    type = 'button'
+    type = 'button',
+    title = '',
 }) => {
     const baseClasses = 'font-medium rounded-lg transition-all duration-300 ease-in-out transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none';
 
     const variants = {
         primary: 'bg-gradient-to-br from-primary to-pink-500 hover:from-primary-dark hover:to-pink-600 text-white shadow-lg hover:shadow-xl focus:ring-primary',
         secondary: 'bg-gradient-to-br from-gold to-emerald hover:from-gold hover:to-emerald text-white shadow-lg hover:shadow-xl focus:ring-gold',
-        outline: 'border-2 border-transparent bg-gradient-to-br from-primary to-pink-500 bg-clip-border hover:from-primary-dark hover:to-pink-600 text-transparent bg-clip-text hover:text-white hover:bg-clip-padding'
+        outline: 'bg-gradient-to-br from-primary to-pink-500 text-transparent bg-clip-text hover:text-light hover:bg-clip-border'
     };
 
     const sizes = {
@@ -41,6 +43,7 @@ const MainButton: React.FC<ButtonProps> = ({
             onClick={onClick}
             disabled={disabled}
             className={buttonClasses}
+            title={title}
         >
             {children}
         </button>

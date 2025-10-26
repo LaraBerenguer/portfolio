@@ -23,7 +23,7 @@ function App() {
         <section className="card" id='skills'>          
           <SkillsSection />
         </section>
-        <MainButton>Hello</MainButton>
+        <MainButton variant='outline'>Hello</MainButton>
       </main>
       <Footer />
     </div>

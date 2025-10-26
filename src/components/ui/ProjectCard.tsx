@@ -16,7 +16,7 @@ const ProjectCard = ({ data }: ProjectCardProps) => {
                 {imgSrc ?
                     (<img src={imgSrc} className='rounded-lg w-5xl'></img>)
                     :
-                    (<div className='rounded-lg w-full h-48 bg-contrast/20 flex items-center justify-center'>
+                    (<div className='rounded-lg h-48 bg-contrast/20 flex items-center justify-center w-5xl'>
                         <span className='text-light-muted'>Loading...</span>
                     </div>)}
             </div>
@@ -32,10 +32,10 @@ const ProjectCard = ({ data }: ProjectCardProps) => {
                 </section>
                 <section className='card-buttons flex gap-4'>
                     <a href={data.links.demo} target="_blank" rel="noopener noreferrer">
-                        <MainButton variant='primary' children={'Visit the site'} />
+                        <MainButton variant='primary' children={'Visit the site'} disabled={data.links.demo === "" ? true : false} title={data.links.demo === "" ? "Coming soon" : ""} />
                     </a>
                     <a href={data.links.repo} target="_blank" rel="noopener noreferrer">
-                        <MainButton variant='secondary' children={'Repository'} />
+                        <MainButton variant='secondary' children={'Repository'}/>
                     </a>
                 </section>
             </div>
